@@ -1,0 +1,33 @@
+{
+  "name": "@kraftend/eslint-config-next",
+  "version": "1.0.0",
+  "description": "ESLint configuration used in Next.js projects by Kraftend.",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "url": "kraftend/eslint-config-next"
+  },
+  "dependencies": {
+    "@rushstack/eslint-patch": "^1.10.3",
+    "@typescript-eslint/eslint-plugin": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+    "@typescript-eslint/parser": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-node": "^0.3.6",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.0.0"
+  },
+  "peerDependencies": {
+    "@next/eslint-plugin-next": "^14.0.0 || ^15.0.0",
+    "eslint": "^7.23.0 || ^8.0.0 || ^9.0.0",
+    "next": "^14.0.0 || ^15.0.0",
+    "typescript": ">=4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  }
+}
